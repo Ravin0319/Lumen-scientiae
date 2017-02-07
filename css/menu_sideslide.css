@@ -8,7 +8,7 @@ body,
 }
 
 .container {
-	background: #373a47;
+
 }
 
 .menu-wrap a {
@@ -28,6 +28,11 @@ body,
 .content {
 	position: relative;
 	background: #b4bad2;
+	width: 70%;
+	margin: auto;
+	margin-top: 100px;
+	padding: 20px 20px 20px 20px;
+	height: 500px;
 }
 
 .content::before {
@@ -117,9 +122,10 @@ body,
 .menu-wrap {
 	position: absolute;
 	z-index: 1001;
-	width: 200px;
+	width: 250px;
 	height: 100%;
-	background: #373a47;
+	background: black;
+	opacity: 0.7;
 	padding: 2.5em 1.5em 0;
 	font-size: 1.15em;
 	-webkit-transform: translate3d(-320px,0,0);

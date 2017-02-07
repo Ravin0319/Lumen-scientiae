@@ -17,11 +17,20 @@
 				controller  : 'aboutController'
 			})
 
-			// route for the contact page
+			.when('/join', {
+				templateUrl : 'pages/join.html',
+				controller  : 'joinController'
+			})
+
 			.when('/contact', {
 				templateUrl : 'pages/contact.html',
 				controller  : 'contactController'
-			});
+			})
+
+			.when('/goodies', {
+				templateUrl : 'pages/goodies.html',
+				controller  : 'goodiesController'
+			})
 	});
 
 	// create the controller and inject Angular's $scope
@@ -34,6 +43,14 @@
 		$scope.message = 'Look! I am an about page.';
 	});
 
+	scotchApp.controller('joinController', function($scope) {
+		$scope.message = 'Contact us! JK. This is just a demo.';
+	});
+
 	scotchApp.controller('contactController', function($scope) {
+		$scope.message = 'Contact us! JK. This is just a demo.';
+	});
+
+	scotchApp.controller('goodiesController', function($scope) {
 		$scope.message = 'Contact us! JK. This is just a demo.';
 	});

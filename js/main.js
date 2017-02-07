@@ -22,6 +22,7 @@
 
 	function initEvents() {
 		openbtn.addEventListener( 'click', toggleMenu );
+
 		if( closebtn ) {
 			closebtn.addEventListener( 'click', toggleMenu );
 		}
@@ -36,7 +37,9 @@
 	}
 
 	function toggleMenu() {
+		
 		if( isOpen ) {
+
 			classie.remove( bodyEl, 'show-menu' );
 		}
 		else {
