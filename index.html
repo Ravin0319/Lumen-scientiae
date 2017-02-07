@@ -46,5 +46,14 @@
 		
 		<script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+		<script src="js/snow.js"></script>
+		<script>
+		$(document).ready( function(){
+			$.fn.snow();
+			$.fn.snow({ minSize: 5, maxSize: 5, newOn: 1000, flakeColor: '#FFFFFF' });
+
+		});
+		</script>
 	</body>
 </html>

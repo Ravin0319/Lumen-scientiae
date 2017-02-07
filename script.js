@@ -36,21 +36,21 @@
 	// create the controller and inject Angular's $scope
 	scotchApp.controller('mainController', function($scope) {
 		// create a message to display in our view
-		$scope.message = 'Everyone come and see how good I look!';
+		//$scope.message = 'Home Page - Logo comes here!';
 	});
 
 	scotchApp.controller('aboutController', function($scope) {
-		$scope.message = 'Look! I am an about page.';
+		//$scope.message = 'Look! I am an about page.';
 	});
 
 	scotchApp.controller('joinController', function($scope) {
-		$scope.message = 'Contact us! JK. This is just a demo.';
+		//$scope.message = 'Contact us! JK. This is just a demo.';
 	});
 
 	scotchApp.controller('contactController', function($scope) {
-		$scope.message = 'Contact us! JK. This is just a demo.';
+		//$scope.message = 'Contact us! JK. This is just a demo.';
 	});
 
 	scotchApp.controller('goodiesController', function($scope) {
-		$scope.message = 'Contact us! JK. This is just a demo.';
+		//$scope.message = 'Contact us! JK. This is just a demo.';
 	});
