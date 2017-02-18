@@ -1,3 +1,77 @@
+p{
+	text-align: justify !important;
+}
+
+.clear{
+	height: 5%;
+}
+.logoVisit{
+	background: url('logoVisit.png');
+	height: 67%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 110;
+	opacity: 1 !important;
+}
+#visit{
+	position: absolute;
+	background: black;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 105;
+	opacity: 0.7;
+}
+#visitButton{
+	height: 25px;
+	width: 600px;
+	color: white;
+	margin: auto;
+	text-align: center;
+	margin-top: 2%;
+	letter-spacing: 0.6em;
+	font-size: 12px;
+	opacity: 0.5;
+   transition: opacity 0.3s ease;
+   -moz-transition: opacity 0.3s ease;
+   -webkit-transition: opacity 0.3s ease;
+   	width: 67px;
+   	text-transform: uppercase;
+   	border-bottom: solid 1px grey;
+   	cursor: pointer;
+   	z-index: 120;
+
+}
+.VisitBgImg{
+	background: url('visitBg.jpg');
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	opacity: 101;
+}
+.crowfallLogo{
+	background: url('crowfallLogo.png');
+	background-size: contain;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	height: 30px;
+	width: 100px;
+	background-repeat: no-repeat;
+	opacity: 1 !important;
+}
+
+#visitButton:hover{
+	 	border-bottom: solid 1px white;
+	 opacity: 130;
+
+}
 .mainwrap {
 	background: black;
 	width: 65%;
@@ -5,9 +79,11 @@
 	margin: auto;
 	color: #fff !important;
 	padding: 20px 20px 20px 20px;
-	margin-top: 100px;
+	margin-top: 40px;
 	font-size: 16px;
 	border-radius: 5px;
+	max-height: 560px;
+	overflow: auto;
 }
 .social {
 	bottom: 0px;
@@ -21,12 +97,23 @@
 	margin: auto;
 	text-align: center;
 	background: black;
-	opacity: 0.8;
+	opacity: 0.7;
 	padding: 10px 0 10px 0;
 	font-family: 'Cabin', sans-serif !important;
 	color: white;
-	font-size: 14px;
-	letter-spacing: 0.7px;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.logoBg{
+	background-color: black;
+	opacity: 0.6;
+	z-index: 1;
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	right: 0px;
+	top: 0px;
+	border-radius: 100px 0px 100px 100px;
 }
 a{
 	color: white;
@@ -36,3 +123,21 @@ a{
     width: 100%;
 
 }
+.smallLogo{
+	background: url('sample4.png');
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	right: 1%;
+	top: 1%;
+	background-size: cover;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	z-index: 1;
+}
+#flake{
+	color: white;
+	z-index: 9999;
+}
+
+
