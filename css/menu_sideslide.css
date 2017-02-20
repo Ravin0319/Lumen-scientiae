@@ -8,7 +8,8 @@ body,
 }
 
 .container {
-
+	position: absolute;
+	top: 0px;
 }
 
 .menu-wrap a {
@@ -74,7 +75,7 @@ body,
 	right: 0.5em;
 	bottom: 0.5em;
 	left: 0.5em;
-	background: linear-gradient(#373a47 20%, transparent 20%, transparent 40%, #373a47 40%, #373a47 60%, transparent 60%, transparent 80%, #373a47 80%);
+	background: linear-gradient(#d0d0ce 20%, transparent 20%, transparent 40%, #d0d0ce 40%, #d0d0ce 60%, transparent 60%, transparent 80%, #d0d0ce 80%);
 	content: '';
 }
 
